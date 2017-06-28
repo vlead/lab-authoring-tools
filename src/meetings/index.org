@@ -1,0 +1,66 @@
+#+TITLE: Meetings
+#+AUTHOR: Projit Bandyopadhyay
+#+DATE: [2017-06-27 Tuesday]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* [2017-06-27 Tuesday]
+- Maybe raise issues on PHET repositories. Look through their work. In future cc Sir
+  when reaching out to other organizations.
+
+** Programming Model
+- Programming model should be:
+
+  - Objects with properties like mass, charge..etc (can be JSON objects)
+
+  - Frame which can have field properties like gravity
+
+  - When an object is placed in the field, based on it's properties it should
+    react accordingly.
+
+  - Should have the ability to connect objects(they have connection points),
+    and sometimes properties should change accordingly(like when a connection
+    completes a circuit).
+
+- If model of approach is set, mass producing objects should not be a
+  problem. Students would be given the image, and JSON format and would have to
+  google and fill in the properties. 
+
+- Prior to mass producing, few objects should be created and tested in the
+  frames to know how they react.
+
+
+** Conversion of Labs
+- Potential for collaboration with other group: Flash to Javascript converters.
+
+- Stats for them: takes approximately 1 person 1 week to create an
+  experiment(given a video of it). More than 50% of time is spent on placing
+  the objects on the screen(positioning), so a drag and place kind of system
+  would save a LOT of time.
+
+- We have someone who knows Java, could be useful in converting the remaining
+  labs(which are in Java) to javascript. However it seems the principle of
+  conversion remains the same and independent of the language in which the lab
+  is originally written in.
+
+- Need to also create a streamlined process for converting labs. My suggestion:
+  have a video tutorial recorded to demonstrate a conversion and the tools
+  required to ensure fast pickup by people to do this in the future.
+
+* [2017-06-28 Wednesday]
+** Meeting with Maruthi Sir
+*** Oauth   
+    - Discussed Model of Implementation and how to go about creating
+      server-server flows.
+    - Decided on using Google for user flow and separate auth server to
+      implement client flow.
+    - Decided that auth server will probably be black-boxed though the
+      implementation of the flows will still need to be done.
+    - Further implementation-wise clarifications.
+*** Lab Authoring Tools
+    - Many reference tools(documented).
+    - discussed programming model for building.
+    - importance of opengl/webgl
+    - look for connecting different assets to a web browser via js or opengl

@@ -1,0 +1,132 @@
+#+TITLE: Documentation
+#+AUTHOR: Projit Bandyopadhyay
+#+DATE: [2017-06-27 Tuesday]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+
+* JNLP 
+The Java Network Launch Protocol (JNLP) enables an application to be launched
+on a client desktop by using resources that are hosted on a remote web
+server. Java Plug-in software and Java Web Start software are considered JNLP
+clients because they can launch remotely hosted applets and applications on a
+client desktop.
+
+
+* Chromium
+
+
+* Interesting Reading
+https://en.wikibooks.org/wiki/Transformative_Applications_in_Education
+
+- Phun
+- GeoGebra
+- Molecular Workbench
+- NetLogo
+- Gapminder
+- GIMP
+- CmapTools
+- CmapTools (pt 2)
+- Elluminate
+- Celestia
+- Nerveblock Simulator
+- Blio
+- Scratch
+- Squeak
+- WiZiQ
+
+
+* Sites
+
+- http://onlinelabs.in/ Links to other sites of experiments
+
+- https://phet.colorado.edu/ Nice Simulations
+
+- http://collective.chem.cmu.edu/pdf/authortut.pdf Authoring tool?
+
+
+* Molecular Workbench
+
+** FAQ
+- Questions addressed: 
+System Requirements, 
+Redistribution of Simulations,
+Working without internet, 
+Linking to your own webpage/presentation, 
+Memory allocation, 
+language support, 
+some troubleshooting, 
+working with proxy server, 
+problems with wireless(wired preferred), 
+.cml confusions
+
+http://mw.concord.org/modeler/faq.html#redistribute
+
+
+** About
+To begin with, the Molecular Workbench (MW) software is a special browser for
+opening pages with embedded models and simulations (Not for HTML pages).
+
+An MW page can have hyperlinks to other MW pages or web resources that have a
+URL address. Visited pages are automatically cached for faster reloading and
+offline use, and updated whenever there are new versions on the server where
+they reside. A page can be bookmarked, or saved to the hard disk. The
+conventional keyboard shortcuts can be used for similar functionalities.
+
+Like a browser, MW can be used to open any MW page (created by MW's authoring
+system) put on any HTTP web server. If you want to make models or create
+activities and publish them on the Internet, you can be completely independent
+of MW's developer (much like that you are independent of the companies that
+produce your web browsers), as long as you have your own web space to upload
+your stuff.
+
+
+
+** My Analysis
+   
+   - Concept of launching a separate browser(JNLP) can be used to solve some of our
+     other issues like having certain versions of Java and other software
+     installed for the application to work properly.
+   - 
+     
+
+* Google Web Components
+
+- https://github.com/GoogleWebComponents
+
+- Not of much use to this project in particular.
+
+
+* Dymola
+
+
+* SolidWorks
+
+
+* Maya
+
+
+* Autodesk
+
+
+* Open GL
+
+
+* Rasmol
+
+
+* Bullet Phyiscs / ammo.js
+
+
+* KiCad
+
+
+* Unreal Game Engine
+
+
+* TryEngineering / TryScience
+
+
+* Randy Pausch and Alice Programming Language

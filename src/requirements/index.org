@@ -1,0 +1,50 @@
+#+TITLE: Requirements
+#+AUTHOR: Projit Bandyopadhyay
+#+DATE: [2017-06-27 Tuesday]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Aim
+  
+- To create tools that will allow people to create lab experiments without
+  coding.
+
+- Making a library of objects(with their own features) to be used by experiment
+  creators. 
+
+** Studio
+
+   - Create a simplistic studio where objects can be placed and given
+     properties. They should react to the properties of frame when in display mode.
+
+
+* Model (Of Thinking)
+
+** Objects (Images)
+
+   - List of objects needs to be classified and maintained.
+
+   - Objects are JSON(or some standard format) and hold properties and their methods(actions)
+
+   - Properties are exposed based on whether authoring mode or displaying mode.
+
+   - Should be able to connect objects and properties should adjust as a result
+
+   - Objects can be mass-produced in the future, but working samples need to be
+     created first.
+
+
+** Frame   
+
+   - Frame is where the objects interact.
+
+   - In a given frame objects can translate or rotate.
+
+   - Frames are transitioned when an object appears/disappears (?)
+
+   - Objects should inherit properties between frames
+
+
+
