@@ -227,26 +227,165 @@ https://www.autodesk.in/products/maya/overview
 - Has a free trial of 30 days (3years for students)
 
 
-* TODO Autodesk
+* DONE Autodesk
 
 https://www.autodesk.com/
 
 ** About 
 
+- Is a collection of different softwares (Maya is one of them)
+
+
+** Features
+
+- Fusion 360: Cloud-based 3D CAD/CAM/CAE software for product design $300/year
+
+- Maya: Fast, creative toolset for 3D animation, modeling, simulation, and
+  rendering $1470/year
+
+- Revit: Software for Building Information Modeling $2000/year
+
+
+** My Analysis
+
+- Can maybe looked at in the future for very advanced modeling needs.
+
+- Not what we are looking for now.
+
 
 * TODO Open GL(IMP)
 
 
-* TODO Rasmol
+* DONE Rasmol
+
+http://www.openrasmol.org/
+
+** About 
+
+- A computer program written for molecular graphics visualization intended and
+  used mainly to depict and explore biological macromolecule structures, such
+  as those found in the Protein Data Bank.
 
 
-* TODO Bullet Phyiscs / ammo.js
+** Features 
+
+- Visualization of proteins, nucleic acids and small molecules. The program is
+  aimed at display, teaching and generation of publication quality images
+
+- Runs on all common OS distributions.
+
+- Reads molecule files and displays them
 
 
-* TODO KiCad
+** My Analysis
+
+- This could be looked at as a separate feature that could be implemented.
+
+- There is an open source version which we could potentially integrate our site
+  with to allow this reading and displaying of molecule files.
+
+  
+* DONE Bullet Phyiscs / ammo.js
+
+http://bulletphysics.org/wordpress/
+
+https://github.com/kripken/ammo.js/
+
+** About
+
+- Bullet is a physics engine which simulates collision detection, soft and
+  rigid body dynamics. It has been used in video games as well as for visual
+  effects in movies.
+
+
+** Features
+
+- Rigid body and soft body simulation with discrete and continuous collision
+  detection
+
+- Collision shapes include: sphere, box, cylinder, cone, convex hull using GJK,
+  non-convex and triangle mesh
+
+
+** My Analysis
+
+- For much more advanced level modeling of collisions(used by NASA)
+
+- Not required by us.
+
+- Open Source
+
+- Ammo js is interesting: converts bullet to javascript directly without human
+  writing in between. The concepts could maybe be used in other converting
+  labs.
+  They use emscripten for the conversion.
+
+
+* DONE KiCad
+
+http://kicad-pcb.org/about/kicad/
+
+** About
+
+- KiCad is an open source software suite for Electronic Design Automation
+  (EDA). The programs handle Schematic Capture, and PCB Layout with Gerber
+  output.
+
+
+** Features
+
+- Used for designing complicated circuits.
+
+- Professional tool, things made using it:
+  http://kicad-pcb.org/made-with-kicad/
+
+
+** My Analysis 
+
+- We do not need to use something like this. It is for extremely professional
+  creations which we do not aim to create.
 
 
 * TODO Unreal Game Engine
+
+
+* TODO Godot
+
+
+* DONE GDevelop
+
+http://compilgames.net/
+
+** About
+
+- GDevelop flexible architecture allows you to choose if you want to create an
+  HTML5 game that can be played on the web and exported to iOS and Android, or
+  a native game for your operating system. Or activate both platforms and
+  export your game everywhere!
+
+
+** Features
+
+- Physics Engine
+
+- Draggable objects(final interaction)(required in experiments)
+
+- No coding required to create game
+
+
+** My Analysis
+
+- Very easy to create a simple game.
+
+- Can easily export and display in browser.
+
+- Can add simple motions to the objects.
+
+- May need to change the approach of experiments to help it fit within a game
+  engine kind of model
+
+- Need to see the possibility of creating a library of objects that are
+  transportable across games / applications.
 
 
 * TODO TryEngineering / TryScience
