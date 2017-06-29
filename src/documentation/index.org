@@ -15,7 +15,7 @@ clients because they can launch remotely hosted applets and applications on a
 client desktop.
 
 
-* Chromium
+* TODO Chromium
 
 
 * Interesting Reading
@@ -47,7 +47,9 @@ https://en.wikibooks.org/wiki/Transformative_Applications_in_Education
 - http://collective.chem.cmu.edu/pdf/authortut.pdf Authoring tool?
 
 
-* Molecular Workbench
+* DONE Molecular Workbench
+
+http://mw.concord.org/modeler/
 
 ** FAQ
 - Questions addressed: 
@@ -89,44 +91,165 @@ your stuff.
    - Concept of launching a separate browser(JNLP) can be used to solve some of our
      other issues like having certain versions of Java and other software
      installed for the application to work properly.
-   - 
+
+   - Tools seem reasonable and they claim to be able to edit experiments
+     too. So then it is possible that if we create basic components in other
+     experiments people should be able to pull from those(not tested).
+
+   - Quality of the experiments is quite high(at least the featured demos)
+
+   - Need to determine complexity of authoring system(but prediction:
+     complicated).
+
+   - Well documented with instructions on how to create your own simulations.
+
+   - Open Source, and its basic browser size is very small (1.2mb)
+
+   - Probably very good for creating  Chemistry molecule related experiments as
+     they have inbuilt features supporting the view for these things.
      
 
-* Google Web Components
+* DONE Google Web Components
 
 - https://github.com/GoogleWebComponents
 
 - Not of much use to this project in particular.
 
 
-* Dymola
+* DONE Dymola
+
+https://www.3ds.com/products-services/catia/products/dymola/
+
+** About
+   
+- A complete tool for modeling and simulation of integrated and complex systems
+  for use within automotive, aerospace, robotics, process and other applications.
 
 
-* SolidWorks
+** Features
+
+- Libraries in many different engineering domains are available
+  that contain components for mechanical, electrical, control, thermal,
+  pneumatic, hydraulic, power train, thermodynamics, vehicle dynamics, air
+  -conditioning, etc.
+
+- libraries include elements corresponding to physical devices which are simply
+  dragged-and-dropped to build the model. Interactions between the components
+  are conveniently described by graphical connections that model the physical
+  coupling of the components.
+
+- Source Code Generation exports code that can be used on any platform without
+  the need of a Dymola license at the target system. A number of flags are
+  available that can be used to modify the contents of the generated model
+  code.
 
 
-* Maya
+** My Analysis
+
+- Seems like a very good tool for advanced modeling.
+
+- Does not align with our current goals of creating simple lab authoring tools.
+
+- Has potential to be integrated with in the future. The fact that the source
+  code can be exported and edited with other tools as well is promising. 
+
+- Can be used for very advanced modeling for very specific courses like
+  vehicular technology
+ 
+- Not Open Source
 
 
-* Autodesk
+* DONE SolidWorks
+
+http://www.solidworks.in/
+
+** About
+
+- SOLIDWORKS solutions cover all aspects of your product development process
+  with a seamless, integrated workflow—design, verification, sustainable
+  design, communication and data management. Designers and engineers can span
+  multiple disciplines with ease, shortening the design cycle, increasing
+  productivity and delivering innovative products to market faster.
+
+** Features
+
+- 3D CAD
+
+- Simulation
+
+- Product Data Management
+
+- Electric Design and Modeling.
+
+** My Analysis
+
+- Cannot be used as a teaching tool or to develop teaching tools.
+
+- Meant for professionals to create realistic models and simulations
+
+- Should not be used even in the future for other modeling
+
+- Not Open Source
 
 
-* Open GL
+* DONE Maya
+
+https://www.autodesk.in/products/maya/overview
+
+** About
+
+-  3D animation, modelling, simulation and rendering software provides an
+  integrated, powerful toolset. Use it for animation, environments, motion
+  graphics, virtual reality and character creation.
 
 
-* Rasmol
+** Features 
+
+- Motion Graphics Toolset: Quickly create complex procedural effects and
+  animations with instanced objects.
+
+- Good Time editor for high level animation edits
+
+- Good Animation performance and rendering tools.
+
+- 3D Modeling tools
 
 
-* Bullet Phyiscs / ammo.js
+** My Analysis
+
+- For very high level modeling and animations
+
+- Too complex for our use cases.
+
+- Nothing said about possibility of creating libraries of objects, but should
+  be possible.
+
+- Has a free trial of 30 days (3years for students)
 
 
-* KiCad
+* TODO Autodesk
+
+https://www.autodesk.com/
+
+** About 
 
 
-* Unreal Game Engine
+* TODO Open GL(IMP)
 
 
-* TryEngineering / TryScience
+* TODO Rasmol
 
 
-* Randy Pausch and Alice Programming Language
+* TODO Bullet Phyiscs / ammo.js
+
+
+* TODO KiCad
+
+
+* TODO Unreal Game Engine
+
+
+* TODO TryEngineering / TryScience
+
+
+* TODO Randy Pausch and Alice Programming Language
