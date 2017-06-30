@@ -255,6 +255,17 @@ https://www.autodesk.com/
 
 * TODO Open GL(IMP)
 
+https://www.opengl.org/
+
+** About
+
+- Open Graphics Library (OpenGL) is a cross-language, cross-platform
+  application programming interface (API) for rendering 2D and 3D vector
+  graphics.
+
+** Features
+
+** My Analysis
 
 * DONE Rasmol
 
@@ -346,10 +357,67 @@ http://kicad-pcb.org/about/kicad/
   creations which we do not aim to create.
 
 
-* TODO Unreal Game Engine
+* DONE Unreal Game Engine
 
 
-* TODO Godot
+https://www.unrealengine.com/en-US/blog
+
+** About 
+
+- Unreal is a pure C++ engine designed for high performance. Its advanced
+  CPU/GPU profiling tools and flexible renderer equips developers to
+  efficiently achieve quality VR experiences.
+
+
+** Features
+
+- C++ Source Code included
+
+- Flexible Material editor
+
+...
+
+
+** My Analysis
+
+- Not required by us: this is used for creating high quality games not
+  experiments. This would be too complex of a tool to have to learn to
+  downgrade it to use it for creating experiments.
+
+
+* DONE Godot
+
+https://godotengine.org/
+
+** About
+
+- Godot provides a huge set of common tools, so you can just focus on making
+  your game without reinventing the wheel. Godot is completely free and open
+  source under the very permissive MIT license. No strings attached, no
+  royalties, nothing. Your game is yours, down to the last line of engine code.
+
+
+** Features
+
+- Fully dedicated 2D engine
+
+- Allows scripting through built in editors
+
+- Open Source and collaboration supported.
+
+- Works on Web Platforms(via emscripten)
+
+
+** My Analysis
+
+- Need to look for reusability but I think it should be there
+
+- Simple interface.
+
+- Scene instancing makes teamwork a breeze, every team member can focus on
+  their own scene.
+
+- Should be looked into further.
 
 
 * DONE GDevelop
@@ -388,7 +456,40 @@ http://compilgames.net/
   transportable across games / applications.
 
 
-* TODO TryEngineering / TryScience
+* DONE TryEngineering 
+
+http://tryengineering.org/
+
+** About
+
+- Education Site with some games and tools.
+
+- NOT for creating experiments but can be thought of as an alternate approach
+  to vlabs?
 
 
-* TODO Randy Pausch and Alice Programming Language
+
+* DONE Randy Pausch and Alice Programming Language
+
+https://en.wikipedia.org/wiki/Alice_(software)
+
+** About
+
+- Alice is a freeware (for non-commercial purposes) object-based educational
+  programming language with an integrated development environment (IDE). Alice
+  uses a drag and drop environment to create computer animations using 3D
+  models.
+
+
+** Features
+
+- Alice is designed solely to teach programming theory without the complex
+  semantics of production languages such as C++. Users can place objects from
+  Alice's gallery into the virtual world that they have imagined, and then they
+  can program by dragging and dropping tiles that represent logical structures.
+
+
+** My Analysis
+
+- A good educational tool that is worth looking into. Is not for our goal but
+  can be used in other areas(to teach programming?)
