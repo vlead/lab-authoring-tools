@@ -193,7 +193,7 @@ http://www.solidworks.in/
 
 
 * DONE Maya
-
+  
 https://www.autodesk.in/products/maya/overview
 
 ** About
@@ -266,6 +266,7 @@ https://www.opengl.org/
 ** Features
 
 ** My Analysis
+
 
 * DONE Rasmol
 
@@ -493,3 +494,12 @@ https://en.wikipedia.org/wiki/Alice_(software)
 
 - A good educational tool that is worth looking into. Is not for our goal but
   can be used in other areas(to teach programming?)
+
+
+
+
+* Implementation in Javascript Documentation
+
+** References
+
+- http://jqueryui.com/draggable/#constrain-movement
