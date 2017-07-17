@@ -1,0 +1,112 @@
+#+TITLE: Implementation
+#+AUTHOR: Projit Bandyopadhyay
+#+DATE: [2017-06-27 Tuesday]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+
+* Aim
+- Use the programming model to develop simple tools.
+
+* Code
+
+** HTML
+*** Setup
+- Linking libraries for jquery UI.
+#+BEGIN_SRC html :tangle index.html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Constrained Movement</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    
+    <h3>Constrained Inside Display</h3>
+#+END_SRC
+*** Container
+- The div inside which all the objects will remain.
+- Need to give properties to this container in the future.
+#+BEGIN_SRC html :tangle index.html
+    <div id="containment-wrapper">
+    </div>
+#+END_SRC
+*** Button
+- Add object button + textbox for URL
+- Need to modify this in the future to allow access to library of objects with
+  pre-determined properties.
+#+BEGIN_SRC html :tangle index.html
+    <input type="text" id="imgurl" placeholder="Image Url (pls don't try injecting)"></input>
+    <button id="btn">Create Object</button>
+#+END_SRC
+*** Closing
+- Imports my own Javascript
+- Closing setup
+#+BEGIN_SRC html :tangle index.html
+  </body>
+  <script src="./main.js"></script>
+</html>
+#+END_SRC
+
+** CSS
+*** Styling for draggable
+- was originally used to style boxes. Not currently in use
+#+BEGIN_SRC css :tangle main.css
+.draggable { width: 90px; height: 90px; padding: 0.5em; float: left; margin:
+#+END_SRC
+*** Container
+- Styles container
+
+#+BEGIN_SRC css :tangle main.css
+#containment-wrapper { width: 95%; height:400px; border:2px solid #ccc; padding: 10px; }
+#+END_SRC
+
+*** Headings
+- Styles all headings
+#+BEGIN_SRC css :tangle main.css
+h3 { clear: left; }
+#+END_SRC
+
+** JS
+*** New Object
+- Introduces a new picture(object to the view)
+- Need to give it properties to work with and make it an instance of a class instead.
+#+BEGIN_SRC javascript :tangle main.js
+var newObject = function() {
+  var obj = {};
+  var $url = $("#imgurl").val();
+  if ($url === "") return alert("Please Enter URL");
+  else
+  {
+    $("#containment-wrapper").append("<img class='toDrag ui-widget-content' src='"+$url+"'/>");
+    dragging();
+  }
+};
+#+END_SRC
+*** Make Draggable
+- Allows objects on the screen to be draggable.
+- Should make this a property so that it can be activated and deactivated based
+  on authoring or viewing modes.
+#+BEGIN_SRC javascript :tangle main.js
+/*makes the object draggable*/
+var dragging = function() {
+  $( ".toDrag" ).draggable({ containment: "#containment-wrapper", scroll: false });
+};
+#+END_SRC
+*** Button
+- Adds event listener to button to add object.
+- Calls creation of object.
+#+BEGIN_SRC javascript :tangle main.js
+/* adding event listener */
+window.onload = function(){
+  $("#btn").on("click", newObject);
+  dragging();
+
+};
+#+END_SRC
